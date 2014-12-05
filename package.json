@@ -1,0 +1,38 @@
+{
+  "name": "synaptic",
+  "version": "0.1.5",
+  "description": "Architecture-free neural network library",
+  "main": "./src/synaptic",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "gulp": "^3.8.10",
+    "gulp-insert": "^0.4.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-uglify": "^1.0.1",
+    "mocha": "^2.0.1",
+    "vinyl-transform": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cazala/synaptic.git"
+  },
+  "keywords": [
+    "neural network",
+    "machine learning",
+    "long short term memory",
+    "perceptron",
+    "architecture free"
+  ],
+  "author": "Juan Cazala <juancazala@gmail.com> (http://juancazala.com/)",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/cazala/synaptic/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/cazala/synaptic/issues"
+  },
+  "homepage": "http://synaptic.juancazala.com"
+}
